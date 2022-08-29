@@ -1,0 +1,77 @@
+body {
+  margin: 0 0 30px 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar-brand{
+    border: 3px solid yellow;
+    padding: 5px 10px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.navbar-brand:hover{
+    background-color: yellow;
+    color: #777;
+}
+
+.moto {
+  margin-bottom: 40px;
+  font-size: 4rem;
+  font-family: monospace;
+}
+.search-field {
+  padding-left: 20px;
+}
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.slide-card {
+  margin: 20px 20vw 20px 0;
+}
+
+.btn {
+  background-color: lightgray;
+  margin-left: 20px;
+}
+
+.food-image {
+  width: 100%;
+  height: 20vw;
+}
+.food-card-text {
+  padding: 10px 10px;
+}
+.food-card {
+  width: 350px;
+  border: 3px solid rgb(223, 223, 223);
+  box-shadow: 0 10px 6px -6px #777;
+  padding-bottom: 20px;
+}
+.food-btn {
+  padding: 10px 30px;
+  display: block;
+  margin: auto;
+  background-color: rgb(10, 202, 122);
+  color: rgb(240, 240, 240);
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 0;
+}
+
+.food-btn:hover {
+  background-color: brown;
+  color: cornsilk;
+}
+
+/* food section */
+
+.food-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+  justify-content: center;
+}
